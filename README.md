@@ -1,18 +1,16 @@
 # CPEXA Client Review
 
-A private preview of the 22-screen CPEXA website design. A person must be signed in to Cursor, and allowed by the owner, to open it. There are no payments, accounts, or live AI connections.
+A shareable preview of the 22-screen CPEXA website design. Anyone who can open the app can view it until the cutoff in `review.json`. There are no payments, accounts, or live AI connections.
 
 ## Access
 
-Every request checks the signed-in Cursor viewer. Someone who is not signed in is refused. The preview also stops at the cutoff in `review.json`.
+The preview is shown to every visitor until that cutoff, then it stops. To share it with a client, set the published app to public.
 
 ## Run locally
 
 ```bash
 npm start
 ```
-
-On this machine the server simulates a signed-in viewer so the preview can be opened. A published app does not use that simulation.
 
 ## Rebuild
 

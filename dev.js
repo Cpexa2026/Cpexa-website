@@ -1,5 +1,4 @@
 import http from "node:http"
-import { requireIdentity } from "./cursor/identity.js"
 import { previewResponse } from "./lib/preview.js"
 import review from "./review.json" with { type: "json" }
 
@@ -7,15 +6,6 @@ const port = Number(process.env.PORT) || 3921
 
 http
   .createServer(async (req, res) => {
-    const identity = await requireIdentity(req)
-    if (identity instanceof Response) {
-      res.statusCode = identity.status
-      res.setHeader("Content-Type", "text/html; charset=utf-8")
-      res.setHeader("Cache-Control", "private, no-store")
-      res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive")
-      res.end("<h1>Sign in required</h1>")
-      return
-    }
     if (req.method !== "GET" && req.method !== "HEAD") {
       res.statusCode = 405
       res.end()
