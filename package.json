@@ -1,0 +1,13 @@
+{
+  "name": "cpexa-client-review",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node dev.cjs",
+    "prepare-review": "node prepare.cjs",
+    "build": "node build.cjs"
+  }
+}
