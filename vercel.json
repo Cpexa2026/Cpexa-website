@@ -1,1 +1,5 @@
-{"buildCommand":"node build.cjs","installCommand":"","framework":null}
+{
+  "buildCommand": "node build.cjs",
+  "installCommand": "",
+  "framework": null
+}
