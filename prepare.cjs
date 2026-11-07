@@ -1,3 +1,4 @@
+const crypto = require("node:crypto")
 const fs = require("node:fs")
 const zlib = require("node:zlib")
 
@@ -10,6 +11,7 @@ const meta = {
   source: "CPEXA_Interactive_Design_Preview.html",
 }
 fs.writeFileSync("review.json", JSON.stringify(meta, null, 2) + "\n")
+fs.writeFileSync(".review-path", "/review/" + crypto.randomBytes(24).toString("base64url") + "\n")
 
 let html = fs.readFileSync("source-preview.html", "utf8")
 html = html.replace(

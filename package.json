@@ -2,11 +2,12 @@
   "name": "cpexa-client-review",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "engines": {
     "node": "22.x"
   },
   "scripts": {
-    "start": "node dev.js"
+    "start": "node dev.cjs",
+    "prepare-review": "node prepare.cjs",
+    "build": "node build.cjs"
   }
 }
