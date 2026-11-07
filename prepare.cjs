@@ -28,5 +28,5 @@ fs.writeFileSync('server.cjs',server);
 const build=`const fs=require('node:fs');const p='.vercel/output';const f=p+'/functions/review.func';fs.mkdirSync(f,{recursive:true});fs.copyFileSync('server.cjs',f+'/index.js');fs.copyFileSync('preview.html.gz',f+'/preview.html.gz');fs.writeFileSync(f+'/.vc-config.json',JSON.stringify({runtime:'nodejs22.x',handler:'index.js',launcherType:'Nodejs',shouldAddHelpers:true}));fs.writeFileSync(p+'/config.json',JSON.stringify({version:3,routes:[{src:'/(.*)',dest:'/review'}]}));`;
 fs.writeFileSync('build.cjs',build);
 fs.writeFileSync('vercel.json',JSON.stringify({buildCommand:'node build.cjs',installCommand:'',framework:null}));
-fs.writeFileSync('package.json',JSON.stringify({name:'cpexa-client-review',private:true,version:'1.0.0',engines:{node:'22.x'},scripts:{start:'node dev.cjs','prepare-review':'node prepare.cjs',build:'node build.cjs'}}));
+fs.writeFileSync('package.json',JSON.stringify({name:'cpexa-client-review',private:true,version:'1.0.0',engines:{node:'22.x'},scripts:{start:'node dev.cjs'}}));
 console.log(JSON.stringify({expiresAt:meta.expiresAt,files:6}));

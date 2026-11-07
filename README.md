@@ -1,14 +1,6 @@
 # CPEXA Client Review
 This separate Vercel project serves the current 22-screen design mockup through an unlisted review URL. It contains no production payments, accounts or AI connections.
 
-## Run locally
-
-```bash
-npm start
-```
-
-The server prints the review path from `review.json`. Any other path returns 404. The link stops working at `expiresAt`.
-
 ## Publish
 Run these commands from this folder using your own authorized Vercel account:
 1. npm exec --yes --package=vercel -- vercel login
