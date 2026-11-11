@@ -163,40 +163,50 @@ function core(t,a){
 
 
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-  let at=0,start=null,req=0,playing=false,hasAutoPlayed=false;
+  let at=0,start=null,req=0,playing=false,userPaused=false;
   function seek(t){at=t;frame(t)}
-  function pause(){
+  function halt(){
     playing=false;cancelAnimationFrame(req);
-    button.textContent=at>=D?'Replay motion':'Play motion';
+    button.textContent=userPaused?'Play motion':'Pause motion';
   }
   function step(now){
     if(!playing)return;
     if(start===null)start=now-at*1000;
-    seek(Math.min(D,(now-start)/1000));
-    if(at>=D)pause();else req=requestAnimationFrame(step);
+    let t=(now-start)/1000;
+    if(t>=D){t%=D;start=now-t*1000}
+    seek(t);
+    req=requestAnimationFrame(step);
   }
   function play(){
+    if(reduced.matches||userPaused)return;
     if(at>=D)seek(0);
     playing=true;start=null;button.textContent='Pause motion';
     req=requestAnimationFrame(step);
   }
-  function onClick(){hasAutoPlayed=true;playing?pause():play()}
-  function onPreference(){
-    if(reduced.matches){seek(D);pause()}
+  function onClick(){
+    if(reduced.matches)return;
+    if(playing){userPaused=true;halt()}
+    else{userPaused=false;play()}
   }
-  function onVisibility(){if(document.hidden&&playing)pause()}
+  function onPreference(){
+    if(reduced.matches){userPaused=false;seek(D);halt();button.textContent='Play motion'}
+  }
+  function onVisibility(){
+    if(document.hidden){if(playing)halt()}
+    else if(!userPaused&&!reduced.matches)play();
+  }
   button.addEventListener('click',onClick);
   reduced.addEventListener('change',onPreference);
   document.addEventListener('visibilitychange',onVisibility);
-  seek(reduced.matches?D:0);pause();
+  seek(reduced.matches?D:0);
+  if(reduced.matches){halt();button.textContent='Play motion'}
   const observer=new IntersectionObserver(([entry])=>{
-    if(entry.isIntersecting&&!hasAutoPlayed&&!reduced.matches&&!document.hidden){
-      hasAutoPlayed=true;play();
-    }else if(!entry.isIntersecting&&playing)pause();
+    if(entry.isIntersecting&&!userPaused&&!reduced.matches&&!document.hidden)play();
+    else if(!entry.isIntersecting&&playing)halt();
   },{threshold:.22});
   observer.observe(canvas);
   return {destroy(){
-    pause();observer.disconnect();
+    halt();observer.disconnect();
     button.removeEventListener('click',onClick);
     reduced.removeEventListener('change',onPreference);
     document.removeEventListener('visibilitychange',onVisibility);
