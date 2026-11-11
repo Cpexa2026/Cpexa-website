@@ -404,13 +404,14 @@ html{scroll-padding-top:176px}body{padding-bottom:0}.fabric-header-wrap{border-t
 <style id="signature-motion">
 .signature-paths{background:#f3f0e6;padding:42px 0 48px;overflow-x:clip}
 .feature-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
-.flip-card{position:relative;height:328px;perspective:1200px;background:#042d43;border:1px solid rgba(230,199,131,.28);box-shadow:0 10px 28px rgba(4,45,67,.08);transition:box-shadow 420ms cubic-bezier(.22,.61,.36,1),border-color 420ms cubic-bezier(.22,.61,.36,1)}
+.flip-card{position:relative;height:328px;perspective:1200px;background:transparent;border:0;box-shadow:0 10px 28px rgba(4,45,67,.08);transition:box-shadow 420ms cubic-bezier(.22,.61,.36,1)}
 .flip-card.is-open,.flip-card.is-cue,.flip-card.is-turning{z-index:2}
-.flip-card:hover,.flip-card:focus-within,.flip-card.is-open{border-color:#e6c783;box-shadow:0 0 0 1px #e6c783,0 0 18px 2px rgba(230,199,131,.55),0 16px 32px rgba(4,45,67,.18)}
+.flip-card:hover,.flip-card:focus-within,.flip-card.is-open{box-shadow:0 0 0 1px #e6c783,0 0 18px 2px rgba(230,199,131,.55),0 16px 32px rgba(4,45,67,.18)}
 .flip-card-inner{position:relative;height:100%;transform-style:preserve-3d;transition:transform 640ms cubic-bezier(.22,.61,.36,1)}
 .flip-card.is-open .flip-card-inner{transform:rotateY(180deg)}
 .flip-card.is-cue .flip-card-inner{transform:rotateY(15deg)}
-.flip-face{position:absolute;inset:0;display:flex;flex-direction:column;padding:26px 22px 22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
+.flip-face{position:absolute;inset:0;display:flex;flex-direction:column;padding:26px 22px 22px;border:1px solid rgba(230,199,131,.28);backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden}
+.flip-card:hover .flip-face,.flip-card:focus-within .flip-face,.flip-card.is-open .flip-face{border-color:#e6c783}
 .flip-front{background:#042d43;color:#f6f1e4}
 .flip-back{background:#fff;color:#082e42;transform:rotateY(180deg);pointer-events:none}
 .flip-card.is-open:not(.is-turning) .flip-back{pointer-events:auto}
