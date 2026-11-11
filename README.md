@@ -12,7 +12,7 @@ Open http://127.0.0.1:3921/
 
 Main pages:
 
-- `/` home
+- `/` home, with the homepage card motion in the hero
 - `/about`
 - `/events/houston-workshop`
 - `/membership`

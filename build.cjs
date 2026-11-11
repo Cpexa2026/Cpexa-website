@@ -6,6 +6,7 @@ fs.rmSync(output, { recursive: true, force: true })
 fs.mkdirSync(fn, { recursive: true })
 fs.copyFileSync("server.cjs", fn + "/index.js")
 fs.copyFileSync("site.html", fn + "/site.html")
+fs.copyFileSync("hero-motion.mjs", fn + "/hero-motion.mjs")
 fs.writeFileSync(
   fn + "/.vc-config.json",
   JSON.stringify({
