@@ -1,0 +1,11 @@
+{
+  "name": "CPEXA website",
+  "install": "npm install --ignore-scripts",
+  "start": "exec npm start",
+  "ports": [
+    {
+      "name": "website",
+      "port": 3921
+    }
+  ]
+}
