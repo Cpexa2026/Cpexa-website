@@ -1,0 +1,93 @@
+[
+  {
+    "id": "what-cpexa-is",
+    "title": "What CPEXA is",
+    "question": "What is CPEXA?",
+    "answer": "CPEXA means Card Program Excellence & Advancement. It is for the professionals who keep commercial card and payment programs moving. The public site brings together practical guidance, training, and professional development for that work.",
+    "tags": ["cpexa", "about", "organization"]
+  },
+  {
+    "id": "who-it-serves",
+    "title": "Who CPEXA is for",
+    "question": "Who is CPEXA for?",
+    "answer": "CPEXA is for administrators who make a card program work, managers who make it better, and leaders ready to make a difference. The homepage describes people who manage more than a card program and need knowledge, guidance, and connections.",
+    "tags": ["audience", "professionals", "administrators", "managers"]
+  },
+  {
+    "id": "mission",
+    "title": "CPEXA mission",
+    "question": "What is CPEXA’s mission?",
+    "answer": "CPEXA’s published mission is to strengthen purchasing and commercial card programs and advance the professionals who lead them through education, practical resources, and community engagement.",
+    "tags": ["mission", "purpose"]
+  },
+  {
+    "id": "vision",
+    "title": "CPEXA vision",
+    "question": "What is CPEXA’s vision?",
+    "answer": "CPEXA’s published vision is to shape the future of purchasing card excellence by empowering professionals, advancing innovation, and building a connected community where knowledge and expertise drive lasting impact.",
+    "tags": ["vision"]
+  },
+  {
+    "id": "leadership",
+    "title": "Who leads CPEXA",
+    "question": "Who leads CPEXA?",
+    "answer": "CPEXA is led by Managing Director Ronda Davis Johnson. CPEXA is the registered assumed business name of Davis Johnson Synergy Group, LLC.",
+    "tags": ["leader", "ronda", "company", "llc"]
+  },
+  {
+    "id": "membership",
+    "title": "Membership and price",
+    "question": "How much does CPEXA membership cost, and can I join?",
+    "answer": "Enrollment is not open. Membership price and billing period have not been published. The join step on this site is a preview: it does not create an account and it does not take payment. The membership page describes a place to build card-program knowledge, stay current, and get help with work questions.",
+    "tags": ["membership", "price", "billing", "join", "enroll", "cost", "dues"]
+  },
+  {
+    "id": "houston",
+    "title": "Houston Workshop",
+    "question": "When is the Houston Workshop, and how do I register?",
+    "answer": "The Houston Workshop is February 17, 2027. A booking link has not been confirmed. Venue, time, agenda, speakers, and ticket details are not published. Nothing on the workshop page takes payment or reserves a seat.",
+    "tags": ["houston", "workshop", "registration", "ticket", "february"]
+  },
+  {
+    "id": "other-events",
+    "title": "Other events",
+    "question": "What other events are scheduled?",
+    "answer": "Other sessions on the events list are proposed programming. Their dates are not confirmed, registration is not open, and no price or booking link is published. Attendance and online viewing are separate. A ticket, once registration opens, does not unlock protected viewing.",
+    "tags": ["events", "webinar", "replay", "schedule"]
+  },
+  {
+    "id": "consulting",
+    "title": "Program advisory",
+    "question": "Does CPEXA consult on card programs?",
+    "answer": "CPEXA’s consulting page invites a conversation about how a program works today and where it should improve. The published areas of focus are purchasing cards, travel cards, ePayables, and virtual payments, including oversight, adoption, and direction. Sending a message from this site does not yet deliver an inquiry.",
+    "tags": ["consulting", "advisory", "epayables", "virtual", "travel"]
+  },
+  {
+    "id": "training",
+    "title": "Corporate training",
+    "question": "Does CPEXA train teams?",
+    "answer": "CPEXA offers corporate training and workshops for people who manage, support, and lead card programs, including card administrators, program managers, and finance and procurement teams. Session topics, format, and availability will be confirmed by CPEXA. A training request on this site is not delivered yet.",
+    "tags": ["training", "workshop", "team", "corporate"]
+  },
+  {
+    "id": "resources",
+    "title": "Resource library",
+    "question": "What is in the resource library?",
+    "answer": "The public library currently shows sample material, including the article “From program expertise to leadership influence.” That sample shows the kind of article the resource pages carry. It is not a confirmed member benefit. Protected resources are not available until membership can be verified.",
+    "tags": ["resources", "library", "article", "guides"]
+  },
+  {
+    "id": "accounts",
+    "title": "Accounts and payment",
+    "question": "Can I sign in, pay, or save a conversation?",
+    "answer": "Sign-in, password reset, and payment are previews. They do not create an account, send mail, or take payment. Saved member history is not available yet. Ask CPEXA can answer from published FAQs, and questions are limited so automated use cannot spend the answer allowance.",
+    "tags": ["account", "signin", "password", "payment", "stripe"]
+  },
+  {
+    "id": "contact",
+    "title": "Contact CPEXA",
+    "question": "How do I contact CPEXA?",
+    "answer": "The contact page is the place for consulting, corporate training, workshops, membership, events, and general inquiries. The form on this site does not send the message yet. Use it to see the intended path. A person follows up once delivery is connected.",
+    "tags": ["contact", "email", "inquiry", "person"]
+  }
+]

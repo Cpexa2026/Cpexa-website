@@ -1,8 +1,8 @@
 # CPEXA status ledger
 
-Updated November 16, 2026. Status is technical readiness in this repository. It is not design approval, financial clearance, or permission to launch.
+Updated November 19, 2026. Status is technical readiness in this repository. It is not design approval, financial clearance, or permission to launch.
 
-Source of truth: `site.html` plus `hero-motion.mjs`, served by `node dev.cjs` (`npm start`). `npm run build` only prepares a Vercel output. It does not deploy. There is no database, migration, environment secret, payment provider, mailbox, or live AI connection in this repo.
+Source of truth: `site.html` plus `hero-motion.mjs`, served by `node dev.cjs` (`npm start`). `npm run build` only prepares a Vercel output. It does not deploy. There is no database, migration, payment provider, or mailbox in this repo. Ask CPEXA can call OpenAI only when the host sets `OPENAI_API_KEY`. That key is not stored here.
 
 | ID | Status | Evidence | Needs | Next action |
 | --- | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Source of truth: `site.html` plus `hero-motion.mjs`, served by `node dev.cjs` (`
 | EVT-02 | Blocked | No Cloudflare Stream broadcast | A client broadcast and a permitted member account | Do not issue playback links |
 | EVT-03 | Blocked | No provider notices or recordings pipeline | EVT-02 | Do not auto-publish |
 | EVT-04 | Blocked | Replay screens are samples with no video file | Three supplied recordings and their rights | Do not mark the gallery complete from the mock player |
-| AI-01 | Blocked | Ask CPEXA uses local sample matching. No retrieval corpus and no model call. | Up to 10 approved documents, public or member classification, and a spend limit | Keep the sample labeled and offline |
+| AI-01 | In progress | `POST /api/ask` answers from `faqs.json`. OpenAI is called only when `OPENAI_API_KEY` is set, only for a matching FAQ, and only after the per-browser and per-instance limits pass. The model cannot choose its own price, date, or account facts. | The approved FAQ list beyond the published site copy, and the OpenAI monthly budget on the webdev@cpexa.com account | Add approved FAQs to `faqs.json`. Put the key in Vercel, not in the page |
 | AI-02 | Blocked | Inquiry forms are not delivered. The staff list is three hard-coded rows. | The Microsoft 365 mailbox and the response standard | Do not email inquiries |
 | AI-03 | Blocked | Saved threads are two sample buttons, not per-member records | CORE-01 and a member opt-in | Do not claim cross-device history |
 | AI-04 | Blocked | No Dropbox destination | A restricted client Dropbox and permission to export | Do not export chats |
@@ -41,7 +41,7 @@ Source of truth: `site.html` plus `hero-motion.mjs`, served by `node dev.cjs` (`
 2. Public routes and the Houston journey. Journey behavior is verified. WEB-01 stays in progress until approved copy replaces the preview pages.
 3. Accounts and access. Blocked on client Supabase and email.
 4. Membership and staff editing. Blocked on price, billing frequency, and named staff.
-5. Ticketing, stream, and Ask CPEXA. Blocked on provider accounts, recordings, and the approved corpus.
+5. Ticketing and stream. Blocked on provider accounts and recordings. Ask CPEXA now answers from published FAQs, with OpenAI used only after the guardrails pass.
 6. QA, training, and handoff. Blocked on the slices above.
 
 Service setup can proceed when Brian supplies access. It does not unblock content that CPEXA still has to approve.

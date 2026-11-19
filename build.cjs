@@ -5,6 +5,8 @@ const fn = output + "/functions/site.func"
 fs.rmSync(output, { recursive: true, force: true })
 fs.mkdirSync(fn, { recursive: true })
 fs.copyFileSync("server.cjs", fn + "/index.js")
+fs.copyFileSync("ask.cjs", fn + "/ask.cjs")
+fs.copyFileSync("faqs.json", fn + "/faqs.json")
 fs.copyFileSync("site.html", fn + "/site.html")
 fs.copyFileSync("hero-motion.mjs", fn + "/hero-motion.mjs")
 fs.writeFileSync(
