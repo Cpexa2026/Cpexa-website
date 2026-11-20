@@ -272,8 +272,16 @@ async function modelAnswer(question, hits, previous) {
     }),
   })
   if (!response.ok) {
+    let code = ""
+    try {
+      const payload = await response.json()
+      code = payload?.error?.code || payload?.error?.type || ""
+    } catch {
+      code = ""
+    }
     const failure = new Error("model")
     failure.status = response.status
+    failure.code = String(code).slice(0, 48).replace(/[^a-z0-9_-]/gi, "")
     throw failure
   }
   const payload = await response.json()
@@ -329,7 +337,7 @@ async function handleAsk(req, res) {
     }
     return send(res, 200, { answer, sources, mode: "openai" })
   } catch (error) {
-    const reason = Number.isInteger(error.status) ? `model-${error.status}` : "model"
+    const reason = Number.isInteger(error.status) ? `model-${error.status}${error.code ? `-${error.code}` : ""}` : "model"
     return send(res, 200, { answer: hits[0].answer, sources, mode: "faq", reason })
   }
 }
