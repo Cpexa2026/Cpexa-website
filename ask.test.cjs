@@ -150,6 +150,19 @@ async function main() {
   const refused = await askQuestion("When is the Houston Workshop?", "203.0.113.23")
   assert.equal(refused.body.mode, "handoff")
   assert.match(refused.body.answer, /outside the published CPEXA answers/)
+
+  ask.resetAskLimits()
+  const stored = require("./faqs.json").find((item) => item.id === "what-cpexa-is").answer
+  let copies = 0
+  global.fetch = async () => {
+    copies += 1
+    const content = copies === 1 ? stored : "CPEXA is the professional home for people who run commercial card programs. The name means Card Program Excellence and Advancement."
+    return { ok: true, json: async () => ({ choices: [{ message: { content } }] }) }
+  }
+  const spoken = await askQuestion("What is CPEXA?", "203.0.113.30")
+  assert.equal(copies, 2)
+  assert.equal(spoken.body.mode, "openai")
+  assert.doesNotMatch(spoken.body.answer, /professional organization dedicated/)
   delete process.env.OPENAI_API_KEY
 
   ask.resetAskLimits()

@@ -9,6 +9,14 @@ fs.copyFileSync("ask.cjs", fn + "/ask.cjs")
 fs.copyFileSync("faqs.json", fn + "/faqs.json")
 fs.copyFileSync("site.html", fn + "/site.html")
 fs.copyFileSync("hero-motion.mjs", fn + "/hero-motion.mjs")
+const runtimeEnv = {}
+for (const name of ["OPENAI_API_KEY", "OPENAI_MODEL", "CPEXA_PERSON_EMAIL", "ASK_GUARD_SECRET"]) {
+  let value = String(process.env[name] || "").trim()
+  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+    value = value.slice(1, -1).trim()
+  }
+  if (value) runtimeEnv[name] = value
+}
 fs.writeFileSync(
   fn + "/.vc-config.json",
   JSON.stringify({
@@ -16,6 +24,7 @@ fs.writeFileSync(
     handler: "index.js",
     launcherType: "Nodejs",
     shouldAddHelpers: true,
+    environment: runtimeEnv,
   }),
 )
 fs.writeFileSync(
