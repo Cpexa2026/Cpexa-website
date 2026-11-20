@@ -3,15 +3,15 @@
     "id": "what-cpexa-is",
     "title": "What CPEXA is",
     "question": "What is CPEXA?",
-    "answer": "CPEXA means Card Program Excellence & Advancement. It is for the professionals who keep commercial card and payment programs moving. The public site brings together practical guidance, training, and professional development for that work.",
-    "tags": ["cpexa", "about", "organization"]
+    "answer": "CPEXA stands for Card Program Excellence & Advancement. CPEXA is a professional organization dedicated to advancing purchasing card and commercial card program excellence through education, professional development, innovation, and collaboration. Its focus is on empowering professionals, advancing innovation, and building a connected community where knowledge and expertise drive lasting impact.",
+    "tags": ["cpexa", "about", "organization", "meaning"]
   },
   {
     "id": "who-it-serves",
     "title": "Who CPEXA is for",
-    "question": "Who is CPEXA for?",
-    "answer": "CPEXA is for administrators who make a card program work, managers who make it better, and leaders ready to make a difference. The homepage describes people who manage more than a card program and need knowledge, guidance, and connections.",
-    "tags": ["audience", "professionals", "administrators", "managers"]
+    "question": "Who is CPEXA designed for?",
+    "answer": "CPEXA is designed for purchasing card and commercial card professionals at all stages of their careers, including program managers, administrators, analysts, and individuals responsible for supporting, managing, or optimizing commercial card programs. Whether someone is new to the industry or experienced, CPEXA provides opportunities to expand knowledge, strengthen expertise, and connect with a community committed to excellence and innovation.",
+    "tags": ["audience", "professionals", "administrators", "managers", "analysts"]
   },
   {
     "id": "mission",
@@ -24,7 +24,7 @@
     "id": "vision",
     "title": "CPEXA vision",
     "question": "What is CPEXA’s vision?",
-    "answer": "CPEXA’s published vision is to shape the future of purchasing card excellence by empowering professionals, advancing innovation, and building a connected community where knowledge and expertise drive lasting impact.",
+    "answer": "CPEXA’s vision is to shape the future of purchasing card excellence by empowering professionals, advancing innovation, and building a connected community where knowledge and expertise drive lasting impact.",
     "tags": ["vision"]
   },
   {
@@ -35,59 +35,290 @@
     "tags": ["leader", "ronda", "company", "llc"]
   },
   {
-    "id": "membership",
-    "title": "Membership and price",
-    "question": "How much does CPEXA membership cost, and can I join?",
-    "answer": "Enrollment is not open. Membership price and billing period have not been published. The join step on this site is a preview: it does not create an account and it does not take payment. The membership page describes a place to build card-program knowledge, stay current, and get help with work questions.",
-    "tags": ["membership", "price", "billing", "join", "enroll", "cost", "dues"]
+    "id": "consulting-training",
+    "title": "Consulting and corporate training",
+    "question": "Does CPEXA provide consulting and corporate training?",
+    "answer": "Yes. CPEXA offers consulting and corporate training designed to help organizations strengthen their purchasing card and commercial card programs. Services focus on program management, operational efficiency, internal controls, compliance, and best practices. Engagements can be tailored to an organization’s needs, challenges, and objectives. Use the contact page to discuss consulting or corporate training.",
+    "tags": ["consulting", "training", "advisory", "corporate", "workshop"]
+  },
+  {
+    "id": "membership-cost",
+    "title": "Membership cost",
+    "question": "How much does CPEXA membership cost?",
+    "answer": "CPEXA offers an annual Professional Membership for purchasing card and commercial card professionals. Charter Membership is $240 for the first year and is available exclusively during the Charter Membership enrollment period. Charter Members keep that designation, and later annual renewals are at the regular membership rate. Professional Membership is $399 annually after the Charter Membership enrollment period closes. Memberships are billed annually. Use the membership page to explore membership and enroll. Only one membership rate is available at a time.",
+    "tags": ["membership", "price", "cost", "dues", "billing", "399", "240", "annual"]
+  },
+  {
+    "id": "membership-billing",
+    "title": "Monthly membership payments",
+    "question": "Does CPEXA offer monthly membership payments?",
+    "answer": "No. CPEXA offers annual memberships only. Membership fees are paid in full at enrollment and provide access to applicable membership benefits for a 12-month period.",
+    "tags": ["monthly", "billing", "payment", "annual", "installment"]
+  },
+  {
+    "id": "charter-member",
+    "title": "Charter Member",
+    "question": "What is a CPEXA Charter Member?",
+    "answer": "CPEXA Charter Members are among the first professionals to join CPEXA and are recognized for their early commitment to advancing innovation and excellence in the purchasing card profession. Charter Members receive an exclusive first-year membership rate of $240, with later annual renewals at the regular $399 rate. Charter Member benefits include a permanent Charter Member designation, an exclusive Founder’s Badge on the CPEXA profile, a personalized digital Charter Member certificate, optional recognition on CPEXA’s website, an exclusive annual Charter Member roundtable, early enrollment privileges for eligible CPEXA events and programs, and priority consideration for advisory councils, standards development committees, education development groups, and research initiatives. Charter recognition is permanent. Roundtable access, early enrollment, and participation privileges require active paid membership. Committee and initiative participation depends on qualifications, availability, and selection.",
+    "tags": ["charter", "founder", "badge", "certificate", "roundtable"]
+  },
+  {
+    "id": "how-to-join",
+    "title": "How to become a member",
+    "question": "How do I become a CPEXA member?",
+    "answer": "Visit the membership page to explore membership and complete the online enrollment process. After a member account is created and the annual membership payment is completed, the member gains access to CPEXA’s member benefits, educational resources, and professional community. Use the membership page to become a member.",
+    "tags": ["join", "enroll", "signup", "account", "member"]
+  },
+  {
+    "id": "renew",
+    "title": "Renew a membership",
+    "question": "Can I renew my CPEXA membership?",
+    "answer": "Yes. CPEXA memberships are renewable annually so members can keep access to educational resources, professional development, and exclusive membership benefits. Members renew through their online account at the applicable annual membership rate. Renew before the membership expires to keep uninterrupted access to member benefits.",
+    "tags": ["renew", "renewal", "expire", "account"]
+  },
+  {
+    "id": "cancel",
+    "title": "Cancel a membership",
+    "question": "Can I cancel my CPEXA membership?",
+    "answer": "Yes. Members may choose not to renew at the end of their annual membership period. Membership benefits remain available through the end of the paid term. After the membership expires, access to member-exclusive resources, educational sessions, and other benefits ends. Membership fees are nonrefundable unless CPEXA’s membership terms and conditions say otherwise.",
+    "tags": ["cancel", "refund", "nonrefundable", "expire"]
+  },
+  {
+    "id": "transfer",
+    "title": "Transfer a membership",
+    "question": "Can I transfer my CPEXA membership to another person?",
+    "answer": "No. CPEXA memberships are issued to individuals and are nontransferable. Membership benefits and privileges belong to the registered member. Use the contact page for membership questions.",
+    "tags": ["transfer", "nontransferable", "individual"]
+  },
+  {
+    "id": "group-membership",
+    "title": "Group or corporate membership",
+    "question": "Does CPEXA offer group or corporate memberships?",
+    "answer": "CPEXA currently offers individual Professional Memberships for purchasing card and commercial card professionals. Group and corporate membership options are not currently available. CPEXA may introduce additional membership opportunities as the organization grows. Use the contact page to ask about professional development for a team.",
+    "tags": ["group", "corporate", "company", "team", "bulk"]
+  },
+  {
+    "id": "workshops",
+    "title": "In-person workshops",
+    "question": "Does CPEXA offer in-person workshops?",
+    "answer": "Yes. CPEXA offers in-person workshops that bring purchasing card and commercial card professionals together for interactive learning, professional development, and connection. Workshops focus on practical industry knowledge, emerging trends, innovation, and best practices. Use the events page for upcoming workshops and registration. The Houston Workshop is February 17, 2027, and its booking link has not been confirmed.",
+    "tags": ["workshop", "in-person", "events", "houston"]
+  },
+  {
+    "id": "workshop-attendance",
+    "title": "Who can attend a workshop",
+    "question": "Do I have to be a CPEXA member to attend a workshop?",
+    "answer": "No. CPEXA workshops are open to both members and nonmembers. Members may receive exclusive registration benefits or preferred pricing for select events, where applicable. Use the events page for available events and registration details.",
+    "tags": ["nonmember", "attend", "workshop", "registration", "discount"]
   },
   {
     "id": "houston",
     "title": "Houston Workshop",
     "question": "When is the Houston Workshop, and how do I register?",
-    "answer": "The Houston Workshop is February 17, 2027. A booking link has not been confirmed. Venue, time, agenda, speakers, and ticket details are not published. Nothing on the workshop page takes payment or reserves a seat.",
+    "answer": "The Houston Workshop is February 17, 2027. A booking link has not been confirmed. Venue, time, agenda, speakers, and ticket details are not published. Nothing on the workshop page takes payment or reserves a seat. Use the events page for workshop details.",
     "tags": ["houston", "workshop", "registration", "ticket", "february"]
   },
   {
     "id": "other-events",
     "title": "Other events",
     "question": "What other events are scheduled?",
-    "answer": "Other sessions on the events list are proposed programming. Their dates are not confirmed, registration is not open, and no price or booking link is published. Attendance and online viewing are separate. A ticket, once registration opens, does not unlock protected viewing.",
-    "tags": ["events", "webinar", "replay", "schedule"]
+    "answer": "Other sessions on the events list are proposed programming. Their dates are not confirmed, and no price or booking link is published for them. Attendance and online viewing are separate. A ticket, once registration opens, does not by itself unlock protected viewing. Use the events page for what is currently listed.",
+    "tags": ["events", "schedule", "proposed", "webinar"]
   },
   {
-    "id": "consulting",
-    "title": "Program advisory",
-    "question": "Does CPEXA consult on card programs?",
-    "answer": "CPEXA’s consulting page invites a conversation about how a program works today and where it should improve. The published areas of focus are purchasing cards, travel cards, ePayables, and virtual payments, including oversight, adoption, and direction. Sending a message from this site does not yet deliver an inquiry.",
-    "tags": ["consulting", "advisory", "epayables", "virtual", "travel"]
+    "id": "recordings",
+    "title": "Recorded educational sessions",
+    "question": "Will CPEXA offer recorded educational sessions?",
+    "answer": "Yes. CPEXA provides members with access to a growing library of recorded educational sessions. The Video Gallery covers purchasing card program management, industry trends, innovation, compliance, and best practices. New recordings are added as they become available. Members access available recordings through the Video Gallery in their member dashboard. CPEXA does not promise a specific number of recordings or a release schedule. Use the membership page to explore membership.",
+    "tags": ["recording", "video", "gallery", "replay", "on-demand"]
   },
   {
-    "id": "training",
-    "title": "Corporate training",
-    "question": "Does CPEXA train teams?",
-    "answer": "CPEXA offers corporate training and workshops for people who manage, support, and lead card programs, including card administrators, program managers, and finance and procurement teams. Session topics, format, and availability will be confirmed by CPEXA. A training request on this site is not delivered yet.",
-    "tags": ["training", "workshop", "team", "corporate"]
+    "id": "ask-the-expert",
+    "title": "Ask the Expert",
+    "question": "What is CPEXA’s Ask the Expert feature?",
+    "answer": "Ask the Expert is an interactive resource that helps purchasing card and commercial card professionals find answers, explore industry best practices, and navigate common program management challenges. Through AI-assisted guidance, people can ask about purchasing card operations, policies, compliance, internal controls, and emerging industry practices. When more expertise is needed, an inquiry may be referred to a CPEXA professional.",
+    "tags": ["expert", "ask", "ai", "guidance"]
   },
   {
     "id": "resources",
     "title": "Resource library",
-    "question": "What is in the resource library?",
-    "answer": "The public library currently shows sample material, including the article “From program expertise to leadership influence.” That sample shows the kind of article the resource pages carry. It is not a confirmed member benefit. Protected resources are not available until membership can be verified.",
+    "question": "What types of resources does CPEXA provide?",
+    "answer": "CPEXA provides educational resources to help purchasing card and commercial card professionals strengthen their knowledge, improve program performance, and stay informed. The growing resource library features articles, practical guides, educational materials, and industry insights on program management, compliance, internal controls, emerging technologies, innovation, and best practices. New resources are added as they become available. Use the resource library on this site.",
     "tags": ["resources", "library", "article", "guides"]
   },
   {
-    "id": "accounts",
-    "title": "Accounts and payment",
-    "question": "Can I sign in, pay, or save a conversation?",
-    "answer": "Sign-in, password reset, and payment are previews. They do not create an account, send mail, or take payment. Saved member history is not available yet. Ask CPEXA can answer from published FAQs, and questions are limited so automated use cannot spend the answer allowance.",
-    "tags": ["account", "signin", "password", "payment", "stripe"]
+    "id": "public-resources",
+    "title": "Resources for nonmembers",
+    "question": "Are CPEXA resources available to nonmembers?",
+    "answer": "Yes. CPEXA makes select educational resources available to everyone. Certain articles, industry insights, and educational materials are public. Most CPEXA resources and exclusive educational content are reserved for active members. Membership provides access to additional learning opportunities and resources. Use the membership page to learn about membership.",
+    "tags": ["nonmember", "public", "resources", "free"]
+  },
+  {
+    "id": "virtual-events",
+    "title": "Virtual educational events",
+    "question": "Does CPEXA offer virtual educational events?",
+    "answer": "Yes. CPEXA offers virtual educational opportunities exclusively for members. Sessions cover industry topics, emerging trends, innovation, program management strategies, and best practices. Additional virtual learning opportunities will be introduced as the educational offerings grow. Use the membership page to explore membership.",
+    "tags": ["virtual", "webinar", "online", "member"]
+  },
+  {
+    "id": "certification",
+    "title": "Professional certification",
+    "question": "Does CPEXA offer professional certifications?",
+    "answer": "CPEXA does not currently offer a professional certification program. Its educational resources, workshops, and member-exclusive learning opportunities are designed to help professionals strengthen knowledge, develop skills, and build expertise. Additional professional development opportunities may be introduced as CPEXA grows.",
+    "tags": ["certification", "certificate", "credential", "designation"]
+  },
+  {
+    "id": "spending-limits",
+    "title": "P-Card spending limits",
+    "question": "What is the best way to establish P-Card spending limits?",
+    "answer": "P-Card spending limits should reflect an associate’s actual purchasing responsibilities rather than one limit for the whole organization. Review 12 to 18 months of transaction history, typical purchase amounts, peak spending periods, and the associate’s business responsibilities. Set both a single-transaction limit and a monthly or billing-cycle limit. Add merchant category restrictions, transaction monitoring, and documented approval for temporary or permanent limit increases. Limits that are too low cause unnecessary declines and extra work. Limits that are too high, without oversight, increase financial exposure and misuse risk. Review and adjust limits periodically using actual activity, business needs, declined transactions, spending trends, and limit-increase requests. The goal is enough purchasing authority to do the work without unnecessary financial exposure.",
+    "tags": ["limit", "limits", "spending", "pcard", "cardholder"]
+  },
+  {
+    "id": "limit-reviews",
+    "title": "Reviewing spending limits",
+    "question": "How often should an organization review and adjust P-Card spending limits?",
+    "answer": "P-Card spending limits should be reviewed at least annually, and often enough that they still fit purchasing activity, operational needs, and risk. Match the method to the size and complexity of the program. A risk-based review can find accounts that need a closer look without checking every cardholder by hand. Use reporting and transaction data to find unusually high limits relative to activity, prolonged inactivity or minimal use, recurring limit increases or frequent declines, and spending that suggests the authority should change. Reviewing without regard to program size or activity creates work without better control. Looking only at high limits can miss quiet accounts that still have unnecessary authority. Prioritize the exceptions and coordinate changes with management.",
+    "tags": ["annual", "review", "reviewed", "often", "limits", "inactive"]
+  },
+  {
+    "id": "internal-controls",
+    "title": "Purchasing card internal controls",
+    "question": "What internal controls should every purchasing card program have?",
+    "answer": "An effective purchasing card program needs a documented internal control framework for accountability, financial risk, and compliance. Controls vary with program size, volume, and structure. Include a written P-Card policy for authorized and prohibited purchases, cardholder responsibilities, documentation, and consequences. Include management approval for issuance, maintenance, and closure. Set single-transaction and monthly or billing-cycle limits and merchant category restrictions. Require timely reconciliation with receipts and a business reason, and approval by someone other than the person who made the purchase. Monitor and audit for violations, unusual activity, and possible fraud. Close accounts when someone leaves or no longer needs a card. Spending limits and merchant blocks alone are not enough, and controls that are too heavy will not last. Combine preventive controls, detective controls, and clear accountability, and use automated monitoring where it fits.",
+    "tags": ["controls", "policy", "compliance", "audit", "sox"]
+  },
+  {
+    "id": "declines",
+    "title": "Reducing P-Card declines",
+    "question": "How can I reduce frequent P-Card transaction declines without increasing financial risk?",
+    "answer": "Start by finding out why transactions decline, and separate legitimate needs from activity that should stay blocked. Raising limits or removing restrictions across the program is not automatically the right fix. Common causes are insufficient available credit or spending limit, a single-transaction limit, merchant category restrictions, an inactive, suspended, expired, or restricted account, and fraud controls at the issuer. Do not automatically raise a limit after one decline, and do not permanently remove a restriction for an occasional legitimate purchase. Distinguish a recurring need from a one-time exception. Analyze decline trends, adjust permanently only when the normal purchasing need justifies it, and use a documented, time-limited exception process for temporary limit or merchant-restriction overrides, then reverse those changes. Watch available credit and keep appropriate merchant controls.",
+    "tags": ["decline", "declines", "declined", "blocked", "merchant"]
+  },
+  {
+    "id": "misuse",
+    "title": "Identifying P-Card misuse",
+    "question": "How can I identify potential P-Card misuse without reviewing every transaction manually?",
+    "answer": "Use risk-based auditing so attention goes to activity with the greatest chance of a policy violation, misuse, or fraud. Automated monitoring, exception reporting, and targeted audits can fit programs of any size. Warning signs include possible split transactions around a single-transaction limit, unusual merchants, locations, frequency, or patterns, repeated missing documentation, prohibited purchases, or policy exceptions, similar charges that may be duplicates, high-risk merchant categories, and unexplained spending increases. Random sampling alone can miss patterns. Reviewing every transaction equally wastes effort. A flagged transaction is not proof of misconduct and still needs review. Prioritize by risk, policy, spending pattern, and compliance history. Use the findings to spot training needs and control gaps.",
+    "tags": ["misuse", "fraud", "split", "audit", "monitoring"]
+  },
+  {
+    "id": "policy-violations",
+    "title": "Repeated policy violations",
+    "question": "How should a P-Card administrator handle repeated policy violations by the same cardholder?",
+    "answer": "Repeated violations need a consistent, documented response focused on accountability, correction, and risk. The organization’s P-Card policy should state the consequences, including disciplinary action up to and including termination of employment. Separate unintentional errors, recurring noncompliance, and suspected misconduct. Typical issues include missing receipts or justifications, unauthorized or prohibited purchases, late reconciliation, attempts to bypass limits or approvals, and uneven management follow-through. Do not apply consequences unevenly or leave recurring violations without documented follow-up. Identify the pattern and severity, give guidance or training when that fits, involve management, and enforce the policy, which may include closer monitoring, suspension, permanent loss of card privileges, or discipline up to termination. Document the actions. Escalate suspected fraud or intentional misconduct promptly through the organization’s investigative path, including HR, Legal, or other appropriate groups.",
+    "tags": ["violation", "violations", "discipline", "cardholder", "policy"]
+  },
+  {
+    "id": "overdue-reports",
+    "title": "Overdue expense reports",
+    "question": "How can I reduce overdue P-Card expense reports and improve timely reconciliation?",
+    "answer": "Overdue expense reports weaken oversight and add compliance risk and administrative work. Set the deadline and the consequences in the P-Card policy. Use available technology for reminders before and after the deadline, give managers visibility into outstanding reports, watch repeat offenders, and apply the stated corrective action, including card suspension when the policy calls for it. Reminders without enforcement let the problem continue. Waiting until a report is badly overdue gives associates and managers less time to fix it. Missing receipts, disputed charges, and unresolved transactions also delay reports. Review overdue-report trends to improve training and the process. The goal is timely reconciliation with clearer accountability and less manual chasing.",
+    "tags": ["overdue", "reconciliation", "expense", "receipts", "late"]
+  },
+  {
+    "id": "inactive-cards",
+    "title": "Inactive P-Cards",
+    "question": "How can I identify inactive P-Cards and determine when they should be closed?",
+    "answer": "An inactive card can create exposure, but little or no recent use does not automatically mean it should be closed. Some associates buy only for a season, a project, or an occasional legitimate need. Review inactivity in a way that fits operational needs and risk tolerance. Look at 12 to 24 months of activity, with at least 12 months of history. Use account-activity reports, get management confirmation where that is appropriate, close accounts that are no longer needed, and consider suspension when a future need is uncertain. Document exceptions. Closing a card only because it has been quiet can interrupt real work. Leaving unused accounts open forever increases exposure.",
+    "tags": ["inactive", "inactivity", "close", "closure", "unused"]
+  },
+  {
+    "id": "adoption",
+    "title": "Increasing P-Card adoption",
+    "question": "How can I increase P-Card adoption and reduce associate reimbursements?",
+    "answer": "Greater P-Card use can improve efficiency, reduce reimbursement processing, improve spend visibility, and potentially increase rebate revenue. Look for business expenses paid out of pocket that could properly go on a P-Card. Review 12 to 18 months of reimbursement data, identify eligible categories and recurring purchases, and talk with department management. Then decide whether a card, a limit change, or education is the right response. Measure fewer reimbursements, more appropriate card spend, efficiency, and any rebate effect. Issuing more cards without checking the need adds administrative work. Not every reimbursed expense belongs on a P-Card. The goal is to move appropriate business spending into a controlled payment process, not simply to issue more cards.",
+    "tags": ["adoption", "reimbursement", "reimbursements", "spend"]
+  },
+  {
+    "id": "program-value",
+    "title": "Demonstrating program value",
+    "question": "How can I demonstrate the value of my P-Card program to leadership?",
+    "answer": "Program value is more than card spend and rebates. Show how the program contributes to efficiency, financial performance, risk management, and organizational goals, and turn activity into measurable outcomes. A useful scorecard covers program spend and growth, rebates, documented cost avoidance, estimated processing efficiencies, transaction volumes, reimbursement conversion, audit findings and corrective actions, active cardholders, and utilization. Use a short dashboard and compare results with a baseline or a prior period. Counts and spend without context hide the value. Do not present estimated savings as verified financial results. State the assumptions and the calculation method. Avoid describing the program as only a payment method or treating the rebate as the whole story.",
+    "tags": ["leadership", "value", "scorecard", "rebate", "roi"]
+  },
+  {
+    "id": "rebates",
+    "title": "Increasing rebate revenue",
+    "question": "How can I identify opportunities to increase P-Card rebate revenue?",
+    "answer": "Start with the organization’s rebate agreement and with eligible spend that can move to cards without weakening controls. Rebate structures differ by institution and contract. Annual volume, activity, payment terms, and negotiated incentives may all matter. Review tiers, qualifying spend, exclusions, terms, and incentives. Analyze 12 to 18 months of accounts payable and reimbursement data. Evaluate supplier acceptance, surcharges, and whether existing cards are underused. Measure net value, including fees and efficiencies, and coordinate with Treasury, Accounts Payable, Procurement, and Finance. Do not chase the rebate percentage while ignoring supplier fees, administrative cost, payment terms, or discounts. Extra spend may not earn the same incremental rebate. The goal is overall financial value, not rebate revenue at the expense of everything else.",
+    "tags": ["rebate", "rebates", "revenue", "supplier", "ap"]
+  },
+  {
+    "id": "admin-workload",
+    "title": "Reducing administrative workload",
+    "question": "How can I reduce the administrative workload of managing a P-Card program without weakening internal controls?",
+    "answer": "Reduce repetitive work by improving the process, using appropriate technology, and saving professional judgment for higher-value work. Look at routine maintenance, limit changes, inquiries, manual recurring reports, repeated policy questions, and follow-up on overdue reports or missing documentation. Consider scheduled reporting, reminders, exception monitoring, and workflows. Standardize routine steps and give cardholders self-service guidance and training. Keep approvals, segregation of duties, and audit documentation. Measure both time saved and compliance. Automating a poor process repeats the problem. Removing approvals only to save time weakens accountability. The goal is a sustainable program so administrators can focus on risk, optimization, and strategy.",
+    "tags": ["workload", "automation", "administrator", "efficiency"]
+  },
+  {
+    "id": "ai-auditing",
+    "title": "AI-powered expense auditing",
+    "question": "How should a P-Card administrator evaluate whether AI-powered expense auditing is right for their organization?",
+    "answer": "AI-powered expense auditing can flag possible violations, unusual patterns, duplicates, and other issues that are hard to see by hand. Adopt it because of operational needs, compliance goals, and resources, not because the technology is new. Assess the audit objectives, what the tool can detect, how it integrates, and whether the data and documentation are good enough. Account for false positives, missed exceptions, investigation workload, cost, security, and accountability. AI does not replace human review, and a finding needs evaluation before any corrective action. Judge the quality of the findings, not only how many transactions were scanned. Pilot with representative data before committing when that is feasible. Extra guidance can help when an organization is comparing vendors, setting audit criteria, or planning an implementation. The goal is better compliance, risk identification, and efficiency alongside the controls that already exist.",
+    "tags": ["ai", "auditing", "automation", "expense", "software"]
+  },
+  {
+    "id": "unauthorized-transaction",
+    "title": "Unauthorized transactions",
+    "question": "What should a P-Card administrator do when a cardholder reports an unauthorized transaction?",
+    "answer": "Protect the account first, report promptly, and confirm that the bank’s fraud process has started. An unfamiliar charge is not automatically fraud. Separate suspected unauthorized activity from a confusing merchant descriptor, a duplicate, or a legitimate billing dispute, without delaying protection. Do not wait for reconciliation to report suspected fraud, and do not try to resolve suspected fraud with the merchant before notifying the issuer under its procedures. Report immediately through the issuer’s fraud process, confirm steps such as blocking or replacing the card when warranted, clarify the transaction type without slowing the report, arrange an approved way to make legitimate purchases, and document and monitor the resolution under policy. Recurring incidents are a reason to review fraud alerts, cardholder education, and coordination with the issuer.",
+    "tags": ["unauthorized", "fraud", "stolen", "dispute"]
+  },
+  {
+    "id": "merchant-disputes",
+    "title": "Merchant disputes",
+    "question": "What should I do when a cardholder disputes a legitimate transaction with a merchant?",
+    "answer": "An incorrect charge, duplicate billing, a product that did not arrive, or a service problem may be a merchant dispute rather than a fraud claim. The P-Card policy should state the steps, cardholder responsibilities, documentation, deadlines, and when to escalate. Cardholders should handle routine merchant issues themselves. They should verify the charge and the records, contact the merchant for an ordinary billing issue when that is appropriate, keep receipts, correspondence, and refund confirmations, watch the issuer’s dispute deadline, and escalate what is still unresolved through the stated channel or the issuer’s process. Confirm that credits are reconciled. Merchant conversations must not run past the bank’s dispute filing deadline. Administrators should not be pulled into every routine dispute. They step in for exceptions and for cases that need more expertise.",
+    "tags": ["dispute", "merchant", "refund", "duplicate", "chargeback"]
+  },
+  {
+    "id": "rfp-objectives",
+    "title": "Purchasing card RFP objectives",
+    "question": "What should be the primary objectives of a Purchasing Card Request for Proposal?",
+    "answer": "A purchasing card RFP should find the financial institution and program that best fit operational requirements, financial objectives, risk expectations, and the long-term purchasing strategy. Rebates matter, but the highest rebate should not be the primary goal. Evaluate card products, purchasing needs, geography, volume, and growth. Assess the administrative platform, reporting, transaction data, integrations, automation, and fit with current finance and expense systems. Compare rebate structures, fees, payment terms, and other contract terms as overall economic value. Assess implementation support, account management, administrator and cardholder support, and escalation. Assess fraud prevention, security, monitoring, and compliance support. Consider whether the provider can adapt and support later initiatives. Coordinate with Treasury on existing bank relationships and strategy before the invitation list is final. Also involve Accounts Payable, Procurement or Supply Chain, Finance, IT, Risk, Compliance, or Internal Audit, and Human Resources where those groups are affected. Not every department has to join every stage. Separate mandatory requirements from preferences, weight financial, operational, technology, and service factors, and document how the choice was made. A first competitive RFP or a major bank change may call for specialized guidance. CPEXA provides consulting for that work. Use the contact page to ask about it.",
+    "tags": ["rfp", "proposal", "bank", "issuer", "treasury"]
+  },
+  {
+    "id": "rfp-evaluation",
+    "title": "Comparing purchasing card RFP proposals",
+    "question": "How should organizations evaluate and compare Purchasing Card RFP proposals?",
+    "answer": "Compare proposals with a documented process that balances financial value, operations, technology, service, and long-term goals. The highest rebate may not be the best overall solution. Plan the evaluation before proposals arrive. Define the outcome and decide whether an optional Request for Information would help. An RFI is not required. Involve Treasury, Accounts Payable, Procurement or Supply Chain, Finance, IT, and other affected groups as appropriate. Set milestones for invitations, questions, submissions, evaluations, finalist presentations, selection, and implementation. Name who may talk with suppliers and how questions and clarifications are shared. Separate mandatory requirements from preferences, use weighted criteria and consistent scoring, and check important claims through demonstrations or clarification. Consider total financial value, the contract, implementation complexity, business continuity, and readiness. Document the findings and the reason for the selection. Choosing mainly on rebate, treating every requirement as equal, or scoring from personal preference undermines the result. CPEXA provides consulting support for organizations running a first competitive sourcing event, comparing several institutions, or changing banks. Use the contact page to ask about consulting.",
+    "tags": ["rfp", "evaluation", "scoring", "rfi", "proposal"]
+  },
+  {
+    "id": "provider-transition",
+    "title": "Changing purchasing card providers",
+    "question": "What should organizations consider when transitioning to a new Purchasing Card provider?",
+    "answer": "Changing providers is more than issuing new cards. Coordinate across departments so purchasing continues, controls hold, and the transition stays orderly. Complexity depends on program size, geography, technology, and current processes. Plan system integration into expense, accounting, and financial systems. Coordinate issuance, distribution, activation, and account setup. Protect recurring payments, essential purchases, and travel. Align Treasury, Accounts Payable, Procurement or Supply Chain, Finance, IT, and other affected groups. Train cardholders, approvers, and administrators. Set limits, merchant restrictions, approvals, and other controls on the new program. Confirm in writing how long the outgoing bank will keep administrative access, transaction history, statements, and reports available, including any fees. Decide which records must be exported, in what format, and how they will be retained. Do not assume old settings transfer. Avoid running two full purchasing programs side by side for a long time. When practical, start new purchasing at the beginning of a billing or calendar month, set a cutoff on the old cards, and allow only a short overlap for outstanding transactions, credits, disputes, and final reconciliation. Get historical-data terms during the contract and transition planning, not after the bank relationship has ended. CPEXA offers consulting for implementation risk, transition planning, and operational readiness. Use the contact page to ask about it.",
+    "tags": ["transition", "conversion", "implementation", "provider", "bank"]
+  },
+  {
+    "id": "cardholder-training",
+    "title": "Cardholder training and communication",
+    "question": "How can a P-Card administrator develop an effective cardholder training and communication strategy?",
+    "answer": "A policy handed out when the card is issued is not enough. Require new cardholders to complete appropriate training before they receive purchasing privileges. Require active cardholders to complete refresher training at least once every two years, covering core responsibilities, policy changes, new capabilities, emerging risks, and updated procedures. Also offer short, on-demand resources for a single policy question so people do not have to repeat a full course. Use more than one channel, such as a learning system, an internal site, or email. Use audit findings, exceptions, and repeated questions to choose topics. When a policy changes, promptly say what is changing, who is affected, when it takes effect, and what action is required. Keep records of mandatory training and check whether it reduces repeat questions and improves compliance. Put the required frequency and completion expectations in the written P-Card policy. On-demand material supplements initial training and the biennial refresher. It does not replace them. CPEXA offers consulting and corporate training to help organizations assess and develop this strategy. Use the contact page to ask about it.",
+    "tags": ["training", "cardholder", "communication", "refresher", "onboarding"]
+  },
+  {
+    "id": "governance",
+    "title": "Program governance and controls",
+    "question": "How can P-Card administrators ensure their programs have effective internal controls and appropriate governance?",
+    "answer": "A written policy and spending limits are not the whole control environment. The program needs documented accountability and independent oversight. For organizations subject to the Sarbanes-Oxley Act, financial reporting controls may affect how card activity is authorized, monitored, reconciled, and reviewed. Every program, whether or not SOX applies, needs checks and balances. Separate purchasing, transaction approval, account administration, and control review where that is appropriate. Where SOX applies, coordinate with Finance, Internal Audit, and SOX compliance personnel. Have critical activity and exceptions reviewed by people with enough authority and independence. Keep evidence of approvals, reconciliations, account reviews, exception monitoring, and corrective actions. Periodically test whether controls actually operate. Assign someone to fix weaknesses and follow through. Reassess controls when technology, the bank, the organization, or the purchasing process changes. A written policy does not prove the controls work, and a review without evidence or follow-up is weak. Meeting a SOX checklist is not the only measure of governance. The framework should fit the program’s size, complexity, and risk. It does not have to add committees or extra approval layers. CPEXA offers consulting to evaluate processes and control gaps. Use the contact page to ask about it.",
+    "tags": ["governance", "sox", "oversight", "segregation", "controls"]
+  },
+  {
+    "id": "program-potential",
+    "title": "Whether a program is at full potential",
+    "question": "How can P-Card administrators determine whether their program is operating at its full potential?",
+    "answer": "A program can be compliant, efficient, and producing rebates and still have room to improve. Look past daily operations to financial objectives, purchasing activity, risk management, and long-term strategy. Compare current spending, utilization, rebates, compliance, and administrative efficiency with the program’s own baselines and prior periods. Use industry data and reasonably similar organizations, and account for differences in size, business model, geography, and purchasing needs. Also look at eligible spend still outside the program, technology that is paid for but unused, manual work, and whether policies still fit the organization. Cardholder training, communication, and support are part of the picture. Do not measure success only by total spend, transaction count, or rebates, and do not compare programs on size alone. Benchmarking should be ongoing. Not every opportunity needs immediate action. Prioritize by value, readiness, resources, and risk. CPEXA offers consulting to evaluate effectiveness, relevant benchmarks, and practical improvements. Use the contact page to ask about it.",
+    "tags": ["benchmark", "optimization", "performance", "potential", "assessment"]
   },
   {
     "id": "contact",
     "title": "Contact CPEXA",
     "question": "How do I contact CPEXA?",
-    "answer": "The contact page is the place for consulting, corporate training, workshops, membership, events, and general inquiries. The form on this site does not send the message yet. Use it to see the intended path. A person follows up once delivery is connected.",
+    "answer": "Use the contact page for consulting, corporate training, workshops, membership, events, and general inquiries.",
     "tags": ["contact", "email", "inquiry", "person"]
   }
 ]

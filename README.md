@@ -1,6 +1,6 @@
 # CPEXA
 
-The CPEXA website for purchasing and commercial card professionals. It includes the public pages, the Houston workshop, membership, resources, and Ask CPEXA. There is no live payment, account, or AI connection yet.
+The CPEXA website for purchasing and commercial card professionals. It includes the public pages, the Houston workshop, membership, resources, and Ask CPEXA. Payment and accounts are still previews. Ask CPEXA answers from the approved FAQ file when the server has an OpenAI key.
 
 ## Run locally
 
@@ -39,7 +39,7 @@ That prepares a Vercel build of the same site. It does not publish it.
 
 ## Ask CPEXA
 
-Ask CPEXA answers from `faqs.json`. Add a published question and answer there, then deploy again. The page sends each question to `POST /api/ask`. The OpenAI key stays on the server.
+Ask CPEXA answers from `faqs.json`. That file holds the approved Phase 1 and Phase 2 public answers. Internal notes from those documents are not included. Add a published question and answer there, then deploy again. The page sends each question to `POST /api/ask`. The OpenAI key stays on the server.
 
 In the Vercel project owned by webdev@cpexa.com, set `OPENAI_API_KEY`. The server uses `gpt-4o-mini` unless `OPENAI_MODEL` is `gpt-4.1-mini`, `gpt-4.1-nano`, or `gpt-5-mini`. Without the key, the same FAQ answers are returned directly.
 

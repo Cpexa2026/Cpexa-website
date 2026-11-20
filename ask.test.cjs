@@ -81,8 +81,14 @@ async function main() {
 
   ask.resetAskLimits()
   const price = await askQuestion("What is the membership price?", "203.0.113.11")
-  assert.match(price.body.answer, /not been published|not open/i)
-  assert.doesNotMatch(price.body.answer, /\$\d/)
+  assert.match(price.body.answer, /\$240/)
+  assert.match(price.body.answer, /\$399/)
+  assert.match(price.body.answer, /annual/i)
+  assert.doesNotMatch(price.body.answer, /first 100|100 Charter|enrollment cap/i)
+
+  ask.resetAskLimits()
+  const limits = await askQuestion("How often should P-Card spending limits be reviewed?", "203.0.113.21")
+  assert.match(limits.body.answer, /at least annually/i)
 
   ask.resetAskLimits()
   const unknown = await askQuestion("Tell me a recipe for sourdough bread", "203.0.113.12")
