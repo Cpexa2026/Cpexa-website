@@ -39,7 +39,9 @@ That prepares a Vercel build of the same site. It does not publish it.
 
 ## Ask CPEXA
 
-Ask CPEXA answers from `faqs.json`. That file holds the approved Phase 1 and Phase 2 public answers. Internal notes from those documents are not included. Add a published question and answer there, then deploy again. The page sends each question to `POST /api/ask`. The OpenAI key stays on the server.
+Ask CPEXA answers from `faqs.json`. That file holds the approved Phase 1 and Phase 2 public answers. Internal notes from those documents are not included. A question that does not match one of those answers is not sent to OpenAI. The chat tells the visitor it is outside the published answers and, when `CPEXA_PERSON_EMAIL` is set, gives a link that opens their email to that person with the question filled in. Add a published question and answer in `faqs.json`, then deploy again. The page sends each question to `POST /api/ask`. The OpenAI key stays on the server.
+
+In the same Vercel project, set `CPEXA_PERSON_EMAIL` to the mailbox a visitor should use for a person. Use the full address, such as `person@cpexa.com`. Until that value is set, an out-of-scope question points to the contact page.
 
 In the Vercel project owned by webdev@cpexa.com, set `OPENAI_API_KEY`. The server uses `gpt-4o-mini` unless `OPENAI_MODEL` is `gpt-4.1-mini`, `gpt-4.1-nano`, or `gpt-5-mini`. Without the key, the same FAQ answers are returned directly.
 

@@ -5,6 +5,7 @@ const { Readable } = require("node:stream")
 process.env.ASK_MIN_INTERVAL_MS = "0"
 delete process.env.OPENAI_API_KEY
 delete process.env.OPENAI_MODEL
+delete process.env.CPEXA_PERSON_EMAIL
 
 const ask = require("./ask.cjs")
 const handler = require("./server.cjs")
@@ -92,14 +93,25 @@ async function main() {
 
   ask.resetAskLimits()
   const unknown = await askQuestion("Tell me a recipe for sourdough bread", "203.0.113.12")
-  assert.equal(unknown.body.answer, ask.GAP)
+  assert.equal(unknown.body.mode, "handoff")
+  assert.equal(unknown.body.answer, ask.handoffAnswer())
+  assert.equal(unknown.body.sources.length, 0)
+
+  process.env.CPEXA_PERSON_EMAIL = "person@cpexa.com"
+  ask.resetAskLimits()
+  const person = await askQuestion("What is the weather in Houston?", "203.0.113.22")
+  assert.equal(person.body.mode, "handoff")
+  assert.match(person.body.answer, /person@cpexa.com/)
+  assert.equal(person.body.email, "person@cpexa.com")
+  assert.doesNotMatch(person.body.answer, /February/)
+  delete process.env.CPEXA_PERSON_EMAIL
 
   ask.resetAskLimits()
   const trap = await call({
     headers: { host: "127.0.0.1:3921", origin: "http://127.0.0.1:3921", "x-real-ip": "203.0.113.13" },
     body: JSON.stringify({ question: "When is the Houston Workshop?", website: "spam.example" }),
   })
-  assert.equal(trap.body.answer, ask.GAP)
+  assert.equal(trap.body.answer, ask.handoffAnswer())
   assert.equal(trap.body.needProof, undefined)
 
   let fetches = 0
@@ -128,7 +140,16 @@ async function main() {
   fetches = 0
   const skipped = await askQuestion("Explain quantum weaving", "203.0.113.15")
   assert.equal(fetches, 0)
-  assert.equal(skipped.body.mode, "faq")
+  assert.equal(skipped.body.mode, "handoff")
+
+  ask.resetAskLimits()
+  global.fetch = async () => ({
+    ok: true,
+    json: async () => ({ choices: [{ message: { content: "HANDOFF" } }] }),
+  })
+  const refused = await askQuestion("When is the Houston Workshop?", "203.0.113.23")
+  assert.equal(refused.body.mode, "handoff")
+  assert.match(refused.body.answer, /outside the published CPEXA answers/)
   delete process.env.OPENAI_API_KEY
 
   ask.resetAskLimits()
